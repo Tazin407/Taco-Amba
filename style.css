@@ -1,0 +1,6 @@
+#banner-container{
+    background-image: url('./resources/flat-lay-cooked-mussels-dish.jpg');
+    background-size: cover;
+    background-repeat: none;
+    height: 80vh;
+}

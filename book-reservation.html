@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Reservation</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <nav class="flex justify-between bg-cyan-100 px-10 py-5 items-center" >
+            <div><h1 class="text-3xl text-lime-800 font-bold " >Taco Bamba</h1></div>
+            <div  >
+                <ul class="flex gap-5">
+                    <li><a class="font-semibold text-black hover:text-lime-800" href="./index.html">Home </a></li>
+                    <li><a class="font-semibold text-black hover:text-lime-800" href="./menu.html">Menu </a></li>
+                    <li><a class="font-semibold text-black hover:text-lime-800" href="./book-reservation.html">Book Reservation </a></li>
+                    <li><a class="font-semibold text-black hover:text-lime-800" href="./contact_us.html">Contact Us </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="items-center" >
+            <h1 class="text-center font-bold text-2xl my-3" >Book your reservation</h1>
+            <div class=" p-4" >
+                <label class="m-2 input input-bordered flex items-center gap-2">
+                    Name
+                    <input type="text" class="grow" placeholder="Your Name" />
+                  </label>
+                  <label class="m-2 input input-bordered flex items-center gap-2">
+                    Email
+                    <input type="text" class="grow" placeholder="Your Email" />
+                  </label>
+                  <label class="m-2 input input-bordered flex items-center gap-2">
+                    Date
+                    <input type="date" class="grow" placeholder="" />
+                  </label>
+                  <label class="m-2 input input-bordered flex items-center gap-2">
+                    Time
+                    <input type="time" class="grow" placeholder="" />
+                  </label>
+                  <label class=" m-2 input input-bordered flex items-center gap-2">
+                    Number of Guests
+                    <input type="number" class="grow" placeholder="" />
+                  </label>
+
+                   <div class="flex justify-center" >
+                    <button class="bg-red-600 m-auto p-3 text-white rounded-lg" >Book Now</button>
+                  
+                   </div>
+            </div>
+        </div>
+
+    </main>
+    
+</body>
+</html>
